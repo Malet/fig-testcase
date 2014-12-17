@@ -12,7 +12,7 @@ def test_fig
       raise "\rFailed on run #{n+1}: #{result.inspect} != #{EXPECTED.inspect}"
     end
   end
-  puts "\rCompleted 50 runs"
+  puts "\rCompleted #{ITERATIONS} runs"
 rescue => e
   print e
 end
@@ -27,7 +27,7 @@ def test_dockerpty
       raise "\rFailed on run #{n+1}: #{result.inspect} != #{EXPECTED.inspect}"
     end
   end
-  puts "\rCompleted 50 runs"
+  puts "\rCompleted #{ITERATIONS} runs"
 rescue => e
   print e
 end
