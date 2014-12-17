@@ -1,0 +1,3 @@
+test:
+  image: debian:wheezy
+  command: echo "passed"
